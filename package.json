@@ -2,7 +2,7 @@
   "name": "countdownchamp",
   "version": "0.1.0",
   "private": true,
-  "homepage":"C:/Users/Florin/Desktop/Coding/react/countdownchamp/build",
+  "homepage":"https://github.com/FlorinCio/countdown/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
