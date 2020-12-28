@@ -25,9 +25,8 @@ leading0(num){
 }
 
 getTimeUntil(deadline){
-  // const time = Date.parse(deadline) - Date.parse(new Date());
+
   const time = new Date(deadline).getTime() - new Date().getTime();
-  // const mili=time.getMilliseconds();
   const miliseconds=  Math.floor((time)%1000);
   const seconds = Math.floor((time/1000) % 60);
   const minutes = Math.floor((time/1000/60) % 60);
